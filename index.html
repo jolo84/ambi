@@ -1,11 +1,14 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Title</title>
+    <!--Title and Description-->
+    <title>Real Estate | Construction & More - Ambi Consulting </title>
+    <meta description="Hempel Regis - former CEO of Ambi s.a  & Consultant for all questions regarding real estate, renovation, corporate management, and finance. Contact me and profit from decades of business experience.">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <!--Website icon-->
+    <link rel="icon" href="./assets/img/ambi-favicon.ico">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -13,8 +16,14 @@
   <body>
     <header id="navbar">
         <div class="navbar">
+
             <!-- Nav tabs -->
             <ul class="nav ">
+                <li class="nav-item">
+                    <a href="index.html" class="navbar-brand">
+                        <img src="./assets/img/logo-nav.svg" alt="Logo of Ambi s.a.">
+                    </a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link active" href="#">Home</a>
                 </li>
@@ -43,10 +52,9 @@
             <g
                 transform="translate(638.61298,-41.181965)"
                 id="hero-vector">
-                <path
-                sodipodi:nodetypes="ccccc"
+                <path               
                 d="m -638.61298,107.44658 397.13009,-66.264615 -0.32275,69.314505 -396.78291,-0.13545 z"
-                id="rect836" />
+                />
             </g>
         </svg>
     </section>
@@ -68,23 +76,25 @@
             </nav>
             <div class="info-box-content">
                 <!-- == ABOUT ME ==-->
-                <article id="about-me" class="m-sm-2 m-md-4 m-lg-5">
+                <article id="about-me" class="m-sm-2 m-md-4 m-lg-5 ">
                     <div class="row">
                         <div class="col-sm-4">
                             <img src="./assets/img/regis.jpg" alt="profile image of regis" id="regis" class="img-fluid d-block mx-auto rounded-circle">
-                            <h3 id="profile-name" class="text-center mt-2">John Doe</h3>
-                            <h4 id="ceo" class="text-center">CEO (Ret.) SURGE s.a.</h4>
+                            <h3 id="profile-name" class="text-center mt-2">Hempel Regis</h3>
+                            <span id="ceo" class="text-center d-block lead">CEO (Ret.) AMBI s.a.</span>
                             <div class="uline w-25 mx-auto"></div>
                         </div>
                         <div class="col-sm-8 text-center">
-                            <h3>Duis autem vel eum iriure dolor</h3>
-                            <p class="text-justify">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p>
-                            <ul class="w-50 mx-auto">
-                                <li>Duis autem vel eum</li>
-                                <li>Duis autem vel eum</li>
-                                <li>Duis autem vel eum</li>
+                            <h2 style="color:#EE9D2A;">10 years of Experience in the Industry</h2>
+                            <p class="text-justify">My associate Pierre Braun and  I founded Ambi s.a. in the year 2005. We started as a small Real Estate Agency in Luxemburg city but soon branched out into different fields:</p>
+                            <ul class="w-75 mx-auto text-left">
+                                <li style="list-style-type:none;"> <i class="fas fa-city"></i> <strong>Real Estate</strong></li>
+                                <li style="list-style-type:none;"><i class="fas fa-tools"></i> <strong>Construction</strong></li>
+                                <li style="list-style-type:none;"><i class="fas fa-laptop-code"></i> <strong>Web Design & Hosting (espress.lu)</strong></li>
                             </ul>
-                            <p class="text-justify">olore eu feugiat nulla facilisis.Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.Duis autem vel eum iriure dolor in hendrerit in vulputate </p>
+                            <p class="text-left">For more information go to <a href="service.html" title="Consulting Services"> <b>my services</b></a></p>
+                            <p class="text-justify">This site was created to preserve the legacy of Ambi s.a.  The timeline is documenting the most important steps and events of the company during the journey from day one.</p>
+                            <p class="text-justify"> <em>Retired but not resting I still offer my service as a consultant in the fields above & others</em>. Do not hesitate, profit from decades of experience in the industry and <a href="contact.html" title="contact form"><b>contact</b></a> me. </p>
                         </div>
                     </div>
                 </article>
@@ -99,46 +109,49 @@
                 <!-- == CONTACT ==-->
                 <article id="contact" class="hide">
                     <form id="contact-form" action="" class=" p-sm-3 p-md-4 p-lg-5">
-                        <div class="row">
+                        <fieldset>
+                            <legend> <h2 style="color:#EE9D2A;">Contact</h2></legend>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <!---Input Name-->
+                                    <div class="form-group">
+                                        <label for="name">Name</label>
+                                        <input type="text" class="form-control" name="name" id="name" aria-describedby="emailHelpId" placeholder="John">
+                                    </div><!--form-group-->
+                                </div><!--col-->
                             <div class="col-sm-6">
-                                <!---Input Name-->
+                                <!---Input Surname-->
                                 <div class="form-group">
-                                    <label for="name">Name</label>
-                                    <input type="text" class="form-control" name="name" id="name" aria-describedby="emailHelpId" placeholder="John">
+                                    <label for="">Surname</label>
+                                    <input type="text" class="form-control" name="surname" id="surname" placeholder="Doe">
                                 </div><!--form-group-->
                             </div><!--col-->
-                        <div class="col-sm-6">
-                            <!---Input Surname-->
-                            <div class="form-group">
-                                <label for="">Surname</label>
-                                <input type="text" class="form-control" name="surname" id="surname" placeholder="Doe">
-                            </div><!--form-group-->
-                        </div><!--col-->
-                    </div><!--row-->
-                    <!---Input Email-->
-                    <div class="form-group">
-                        <label for="">Your Email</label>
-                        <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelpId" placeholder="example@email.com">
-                    </div><!--form-group-->
-                    <!---Input Subject-->
-                    <div class="form-group">
-                        <label for="">Subject</label>
-                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
-                    </div><!--form-group-->
-                    <!---Input Question-->
-                    <div class="form-group mb-0">
-                        <label for="question">Your Question</label>
-                        <textarea class="form-control" name="question" id="question" rows="5"></textarea>
-                    </div><!--form-group-->
-                    <!---Checkbox Privacy-->
-                    <div class="form-check mb-2">
-                        <label class="form-check-label">
-                        <input type="checkbox" class="form-check-input" name="checkbox" id="checkbox" value="checkedValue" checked>
-                        I have read the terms of privacy and data protection
-                        </label>                                    
-                    </div><!--form-group-->
-                        <!---Send Button-->
-                        <button type="submit" class="w-25 btn login-button">Send</button>                    
+                        </div><!--row-->
+                        <!---Input Email-->
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelpId" placeholder="example@email.com">
+                        </div><!--form-group-->
+                        <!---Input Subject-->
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+                        </div><!--form-group-->
+                        <!---Input Question-->
+                        <div class="form-group mb-0">
+                            <label for="question">Your Question</label>
+                            <textarea class="form-control" name="question" id="question" rows="5"></textarea>
+                        </div><!--form-group-->
+                        <!---Checkbox Privacy-->
+                        <div class="form-check mb-2">
+                            <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input" name="checkbox" id="checkbox" value="checkedValue" checked>
+                            I have read <a href="privacy.html" title="Terms of privacy and data protection" target="_blank" rel="noopener noreferrer">the terms of privacy and data protection</a>
+                            </label>                                    
+                        </div><!--form-group-->
+                            <!---Send Button-->
+                            <button type="submit" class="w-25 btn login-button">Send</button>    
+                        </fieldset>                
                     </form> 
                 </article>
             </div> 
@@ -146,54 +159,41 @@
         <svg
         id="frame-hero-md"
         class="frame-hero-md hide-lg"
-        version="1.1"
         viewBox="0 0 396.86282 67.978164"   
         width="100%"
         >
-            <defs
-                id="defs2" />
             <g
                 transform="translate(638.61298,-41.181965)"
-                id="hero-vector"
-                inkscape:groupmode="layer"
-                inkscape:label="Ebene 1">
+                id="hero-vector">
                 <path
-                sodipodi:nodetypes="ccccc"
                 d="m -638.61298,107.44658 397.13009,-66.264615 -0.32275,69.314505 -396.78291,-0.13545 z"
                 style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.33239"
-                id="rect836" />
+                />
             </g>
         </svg>   
     </section><!--== infobox ==-->
     <!--=== TIMELINE ===-->
     <section class="" id="timeline">
         <div id="timeline-header" class="mx-auto w-50 p-2">
-            <h2 class="text-center">An exciting journey from day one!</h2>
+            <h2 class="text-center">100% <span style="color:#3366FF;">AMBI</span>tion from day one!</h2>
         </div>
         <div class="timeline-bg">
             <div class="timeline-bg-before">
                 <svg
-                id="frame-timeline-top"
-                width="100%"
-                viewBox="0 0 397.13009 69.314506"
-                version="1.1">
-            <defs
-                id="defs2" />
-            <g
-                inkscape:label="Ebene 1"
-                inkscape:groupmode="layer"
-                id="timeline-vector-top"
-                transform="translate(638.61298,-41.181965)">
-                <path
-                    id="rect836"
-                    style="fill:#fffeff;fill-opacity:1;stroke:none;stroke-width:1.33239"
-                    d="m -241.48289,43.702688 -397.13009,66.264612 0.32275,-69.314502 396.78291,0.13545 z"
-                    sodipodi:nodetypes="ccccc" />
-            </g>
-            </svg>
+                    id="frame-timeline-top"
+                    width="100%"
+                    viewBox="0 0 397.13009 69.314506"
+                    version="1.1">
+                        <g
+                            id="timeline-vector-top"
+                            transform="translate(638.61298,-41.181965)">
+                            <path
+                                style="fill:#fffeff;fill-opacity:1;stroke:none;stroke-width:1.33239"
+                                d="m -241.48289,43.702688 -397.13009,66.264612 0.32275,-69.314502 396.78291,0.13545 z" />
+                        </g>
+                </svg>
             </div>
-            <div class="frame-container">
-            </div>
+
             <div class="timeline-bg-after">
                 <svg
                 id="frame-timeline-bottom"
@@ -201,18 +201,12 @@
                 viewBox="0 0 397.13009 69.314498"
                 version="1.1"
                 >
-                <defs
-                    id="defs2" />
                 <g
-                    inkscape:label="Ebene 1"
-                    inkscape:groupmode="layer"
                     id="timeline-vector-bottom"
                     transform="translate(638.61298,-40.652798)">
                     <path
-                    id="rect836"
                     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.33239"
-                    d="m -638.61298,106.91741 397.13009,-66.264612 -0.32275,69.314502 -396.78291,-0.13545 z"
-                    sodipodi:nodetypes="ccccc" />
+                    d="m -638.61298,106.91741 397.13009,-66.264612 -0.32275,69.314502 -396.78291,-0.13545 z" />
                 </g>
                 </svg>
             </div>
@@ -266,7 +260,7 @@
         ========================================================================================-->
         <footer>
             <div class="frame frame-footer">
-                <img src="assets/img/footer-frame.svg" alt="footer frame" class="w-100">
+                <img src="assets/img/footer-frame.svg" alt="footer frame" class="w-100 ">
             </div>
             <!--FOOTER CONTENT
             ========================================================-->
@@ -275,11 +269,11 @@
                     <!--FOOTER 1ST COLUMN
                 ========================================================-->
                     <div class="col-md-3 mb-2">
-                        <img class="img-fluid  footer-logo" src="assets/img/logo.svg" alt="foter logo">
+                        <img class="img-fluid  footer-logo d-block mx-auto" src="assets/img/footer-logo.svg" alt="foter logo">
                     </div><!-- === column ==-->
                     <!--FOOTER 2ND COLUMN
                 ========================================================-->
-                    <div id="learn-more" class="col-md-5">
+                    <div id="learn-more" class="col-md-9">
                         <div class="row">
                             <div class=" col-12 footer-header footer-header-1">
                                 <h4 id="footer-header-1" class=" w-100">
@@ -320,10 +314,10 @@
                                 </ul><!-- === list ==-->
                             </div><!-- === column ==-->
                         </div><!-- === row ==-->
-                    </div><!-- === column ==-->
+                    
                     <!--FOOTER 3RD COLUMN
                 ========================================================-->
-                    <div class="col-md-4">
+                    
                         <div class="row">
                             <div class="col-12 footer-header footer-header-2">
                                 <h4 id="footer-header-2" class="w-100">
@@ -335,7 +329,7 @@
                             <div class="col-12">
                                 <div class="row">
                                     <div class="col-3 social">
-                                        <a href="https://www.facebook.com">
+                                        <a href="https://www.facebook.com/regis.hempel">
                                             <i class="fa fa-facebook-square"></i>
                                         </a>
                                     </div><!-- === column ==-->
@@ -353,9 +347,6 @@
                                     </div><!-- === column ==-->
                                 </div>
                             </div>
-                        </div><!-- === row ==-->
-                        <div class="row">
-
                         </div><!-- === row ==-->
                     </div><!-- === column ==-->
                 </div><!-- === row ==-->
