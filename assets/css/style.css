@@ -288,6 +288,10 @@ span.nav-link:hover{
 
 /*=== Timeline Section SECTION ===*/
 
+#timeline{
+    min-height: 1692px;
+}
+
 /* The actual timeline */
 .timeline {
     position: relative;

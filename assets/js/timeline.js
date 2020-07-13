@@ -4,7 +4,7 @@ $(window).ready(function(){
     let timelineBgHObj = $(".timeline-bg").css("height");
     let timelineBgHeight = Number(timelineBgHObj.replace("px", ""));
     let timelineRel = timelineBgHeight / timelineHeight;
-    console.log(timelineRel);
+    console.log(timelineHObj);
     let timelineBgMarginTop = (1 - timelineRel) * 50;
     console.log(timelineBgMarginTop);
 
