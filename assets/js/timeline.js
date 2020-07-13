@@ -12,7 +12,7 @@ $(window).ready(function(){
 
 
     $(window).scroll(function(){
-        if($(document).scrollTop() > $("header").height()*1.2){
+        if($(document).scrollTop() > $("header").height()*1.5){
             $(".timeline-container").eq(0).fadeIn(2000);
             $("#timeline-circle-1").eq(0).fadeIn(2000);
         }
@@ -23,7 +23,7 @@ $(window).ready(function(){
             let headerH = Number(headerHObj.replace("px", ""));
             let containerHObj = $(".timeline-container").css("height");
             let containerH = Number(containerHObj.replace("px", ""));
-            if($(document).scrollTop() > (headerH + (containerH * i))*1.2 ){
+            if($(document).scrollTop() > (headerH + (containerH * i))*1.5 ){
                 $(".timeline-container").eq(i).fadeIn(1000);
                 $(".timeline-circle").eq(i).fadeIn(1000);
                 console.log(i);
