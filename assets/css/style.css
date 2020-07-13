@@ -244,10 +244,12 @@ span.nav-link:hover{
     margin-left: -1px;
 }
 
-#about-me > .row > .col-sm-8{
+#about-me   {
     background: url(../img/bg-about-logo.svg);
     background-size: contain;
     background-repeat: no-repeat;
+    background-position-x: right ;
+    background-position-y: bottom;
 }
 
 /*=== Services ===*/
