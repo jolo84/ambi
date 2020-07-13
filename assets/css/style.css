@@ -250,6 +250,42 @@ span.nav-link:hover{
     background-repeat: no-repeat;
 }
 
+/*=== Services ===*/
+#service{
+    background: url(../img/camionette.png);
+    background-position-x: right;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+}
+
+.icon-bg{
+    display: table;
+    background: #3366FF;
+    border: 5px dotted #EE9D2A;
+    width: 150px;
+    height: 150px;
+}
+
+ .icon{
+     font-size: 60px;
+     display: table-cell;
+     text-align: center;
+     vertical-align: middle;
+     color: #EE9D2A;
+ }
+
+ #btn-contact{
+     background: #3366FF;
+     color: #EE9D2A;
+     border: none;
+     border-radius: 10px;
+     transition: .5s;
+ }
+
+ #btn-contact:hover{
+    transform: scale(1.05);    
+}
+
 /*=== Timeline Section SECTION ===*/
 
 /* The actual timeline */
