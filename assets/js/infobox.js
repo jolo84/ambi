@@ -26,6 +26,15 @@ $(document).ready(function(){
         $("#tab-about-me").removeClass("active");
      });
 
+     $("#btn-contact").click(function(){
+        $("#contact").removeClass("hide");
+        $("#about-me").addClass("hide");
+        $("#service").addClass("hide");
+        $(this).addClass("active");
+        $("#tab-service").removeClass("active");
+        $("#tab-about-me").removeClass("active");
+     });
+
 /*
     $(".question-1-header").click(function(){
         $(".question-1-header span i")
