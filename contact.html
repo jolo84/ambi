@@ -124,20 +124,7 @@
                     </div>
                     <p>My service includes:</p> 
                     <p><strong>Business Strategies, Taxes & Legal Matters, Business Partnerships (Lu), It & Digital Solutions</strong></p>
-                     <script>
-                       $(document).ready(function(){
-                          let contact = function(){
 
-                              $("#contact").removeClass("hide");
-                              $("#about-me").addClass("hide");
-                              $("#service").addClass("hide");
-                              $(this).addClass("active");
-                              $("#tab-service").removeClass("active");
-                              $("#tab-about-me").removeClass("active");
-
-                          }
-                      });
-                     </script>
                     <p style="font-size: 35px;"> Luxembourg is an attractive location for companies. You too can benefit from the many advantages</p>
                    <button onclick="contact()" id="btn-contact" class="px-3"  style="font-size: 30px;">Contact</button>
                 </article>
@@ -408,6 +395,20 @@
     <script type="text/javascript" src="./assets/js/main.js"></script>
     <script type="text/javascript" src="./assets/js/infobox.js"></script>
     <script type="text/javascript" src="./assets/js/timeline.js"></script>
+   <script>
+  $(document).ready(function(){
+    let contact = function(){
+
+        $("#contact").removeClass("hide");
+        $("#about-me").addClass("hide");
+        $("#service").addClass("hide");
+        $(this).addClass("active");
+        $("#tab-service").removeClass("active");
+        $("#tab-about-me").removeClass("active");
+
+    }
+  });
+  </script>
 
   </body>
 </html>
